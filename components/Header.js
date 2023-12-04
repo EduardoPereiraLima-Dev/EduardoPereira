@@ -9,7 +9,7 @@ const Header = () => {
           {/* Eduardo Pereira */}
           <div className='font-sora text-4xl flex items-center mt-1'
             >
-            Eduardo <span className='text-accent font-thin'>Pereira.</span>
+            Eduardo <span className='font-thin'>Pereira</span> <span className='text-accent'>.</span>
           </div>
           {/* Socials */}
           <Socials />

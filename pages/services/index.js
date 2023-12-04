@@ -24,12 +24,12 @@ import {fadeIn} from '../../variants';
 
 const Services = () => {
   return( 
-  <div className='h-full bg-primary/30 py-36 flex items-center'>
+  <div className='h-full bg-primary/30 flex items-center'style={{paddingTop:'10rem'}} >
     <Circles />
     <div className='container mx-auto'>
       <div className='flex flex-col xl:flex-row gap-x-7'>
         {/*text */}
-        <div className='text-center flex xl:w-[20vw] flex-col lg:text-left mb-2 xl:mb-0'>
+        <div className='text-center flex xl:w-[30vw] flex-col lg:text-left mb-2 xl:mb-0'>
           <motion.h2 
           variants={fadeIn('up',0.2)}
           initial='hidden'
@@ -40,12 +40,14 @@ const Services = () => {
            variants={fadeIn('up',0.4)}
            initial='hidden'
            animate='show'
-           exit='hidden' className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Como desenvolvedor front-end, estou comprometido em criar experiências web cativantes e responsivas. Meu foco está em transformar designs criativos em código funcional e interativo, proporcionando aos clientes sites atraentes e amigáveis ao usuário.</motion.p>
+           exit='hidden' 
+           className='mb-4 max-w-[300px] mx-auto lg:mx-0 max-w-sm'>Como desenvolvedor front-end, estou comprometido em criar experiências web cativantes e responsivas. Meu foco está em transformar designs criativos em código funcional e interativo, proporcionando aos clientes sites atraentes e amigáveis ao usuário.</motion.p>
         </div>
         <motion.div variants={fadeIn('down',0.6)}
           initial='hidden'
           animate='show'
-          exit='hidden' className='w-full xl:max-w-[65%]'>
+          exit='hidden'
+           className=' hidden sm:block w-full xl:max-w-[60%]'>
           {/* slider */}
         <ServiceSlider />
         </motion.div>       

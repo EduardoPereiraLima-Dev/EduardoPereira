@@ -30,7 +30,7 @@ const Work = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-x-7'>
           {/*text */}
-          <div className='text-center flex xl:w-[20vw] flex-col lg:text-left mb-2 xl:mb-0'>
+          <div className='text-center flex xl:w-[25vw] flex-col lg:text-left mb-2 xl:mb-0'>
             <motion.h2 
             variants={fadeIn('up',0.2)}
             initial='hidden'
@@ -41,13 +41,13 @@ const Work = () => {
              variants={fadeIn('up',0.4)}
              initial='hidden'
              animate='show'
-             exit='hidden' className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Escrevendo o futuro do mundo digital, linha por linha, em busca da excelência em desenvolvimento<span className='text-accent'>.</span></motion.p>
+             exit='hidden' className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Escrevendo o futuro do mundo digital, linha por linha, em busca da excelência em desenvolvimento.</motion.p>
           </div>
           <motion.div variants={fadeIn('down',0.6)}
             initial='hidden'
             animate='show'
             exit='hidden' 
-            className='w-full xl:max-w-[65%] h-[45vh]'>
+            className='w-full max-w-screen-xl md:max-w-[60%] h-[40vh] mx-auto'>
             {/* slider */}
           <WorkSlider />
           </motion.div>       

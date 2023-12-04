@@ -107,50 +107,54 @@ const About = () => {
   console.log(index);
 
   return (
-    <div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
+    <div className='h-full bg-primary/30 py-36 text-center xl:text-left'>
       <Circles />
       {/* avatar img */}
-      <div  className='hidden xl:flex absolute bottom-[-110px] left-[-230px] overflow-hidden'>
-     
-        <Avatar />
+      <motion.div  
+      variants={fadeIn('right,0.2')}
+      initial='hidden'
+      animate='show'
+      exit='hidden'
+      className='hidden xl:flex absolute bottom-0 -left-[240px]'
       
-      </div>
+      > 
+        <Avatar />
+      </motion.div>
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
         {/*text */}
         <div className='flex-1 flex flex-col justify-center'>
-        <h2 className='text-3xl md:text-4xl lg:text-3xl xl:text-3xl'>Historias <span className='text-accent'>cativantes</span> dão a luz ideas magníficas.</h2>
-        <p  className=' max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>Como desenvolvedor iniciante, estou  embarcando em uma jornada emocionante. </p>
+        <h2 className='text-3xl md:text-4xl lg:text-3xl xl:text-3xl'>Historias <span className='text-accent'>cativantes</span> dão a luz ideas magníficas<span className='text-accent'>.</span></h2>
+        <p  className=' max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>Como desenvolvedor iniciante, estou  embarcando em uma jornada emocionante.</p>
         {/*counters */}
         <div className='hidden md:flex md:max-w-xl xl:max-w-none mx:auto xl:mx-0 mb:-8'>
           <div className='flex flex-1 xl:gap-x-6'>
             {/*experience */}
-            <div className='relative flex-1'>
+            <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
               <div className='text-2xl lx:4xl font-extrabold text-accent mb-2'>
               <CountUp start={100} end={1} duration={10} />+
               </div>
               <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Experiência</div>     
             </div>
           </div>
-          <div>
-            {/*Clintes */}
-            <div className='relative flex-1 mr-6'>
+              {/*Clintes */}
+            <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 '>
               <div className='text-2xl lx:4xl font-extrabold text-accent mb-2'>
               <CountUp start={100} end={1} duration={10} />+
               </div>
               <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'> Clientes</div> 
             </div>
-          </div> 
+          
             {/*Premios */}
-            <div className='relative flex-1'>
+            <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
               <div className='text-2xl lx:4xl font-extrabold text-accent mb-2'>
               <CountUp start={100} end={0} duration={10} />+
               </div>
               <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Prêmios</div>
             </div>  
             {/*Projetos */}
-            <div className='relative flex-1'>
+            <div className='relative flex-1 after:w-[0px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
               <div className='text-2xl lx:4xl font-extrabold text-accent mt-2'>
-              <CountUp start={100} end={28} duration={10} />+
+              <CountUp start={100} end={30} duration={10} />+
               </div>
               <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Projetos</div>             
             </div>         
@@ -162,7 +166,7 @@ const About = () => {
             <div className='flex gap-x-4 xl:gap-x-8 mx-auto lx:mx-0 mb-4'>
               {aboutData.map((item,itemIndex)=>{
                 return(
-                  <div key={itemIndex} className={`${index === itemIndex &&'text-accent after:w-[100%] after:bg-accent  after:transition-all after:duration-300'}'cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 after:right-0'`}
+                  <div key={itemIndex} className={`${index === itemIndex &&'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'}'cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 after:right-0'`}
                   onClick={() => setIndex(itemIndex)}
                   >
                   {item.title}</div>

@@ -18,24 +18,24 @@ import Image from 'next/image';
 const testimonialData = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
-    position: 'Customer',
+    name: 'Anna Maria',
+    position: 'Profissão',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
-    position: 'Customer',
+    name: 'Janaina Torres',
+    position: 'Profissão',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     image: '/t-avt-3.png',
-    name: 'John Doe',
-    position: 'Customer',
+    name: 'João Victor',
+    position: 'Profissão',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
 ];
 
@@ -47,7 +47,7 @@ const TestimonialSlider = () => {
         clickable: true,
       }}
       modules={[Navigation, Pagination]}
-      className='sm:h-[400px]'
+      className='h-[280px] sm:[480px]'
     >
       {testimonialData.map((person, index) => {
         return (

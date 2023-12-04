@@ -40,20 +40,21 @@ const workSlides = {
           path: '/thumb4.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
+        
+      ],
+    },
+    {
+      images: [
         {
           title: 'title',
           path: '/thumb5.jpg',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+           link: 'https://github.com/npm/cli/issues/676vercel',
         },
         {
           title: 'title',
           path: '/thumb6.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
-      ],
-    },
-    {
-      images: [
         {
           title: 'title',
           path: '/thumb7.jpg',
@@ -64,6 +65,10 @@ const workSlides = {
           path: '/thumb8.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
+      ],
+     },
+    {
+      images: [
         {
           title: 'title',
           path: '/thumb9.jpg',
@@ -81,7 +86,7 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/thumb12.jpg', 
+          path: '/thumb12.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
       ],
@@ -108,6 +113,10 @@ const workSlides = {
           path: '/thumb16.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
+      ],
+    },
+    {
+      images: [
         {
           title: 'title',
           path: '/thumb17.jpg',
@@ -118,10 +127,6 @@ const workSlides = {
           path: '/thumb18.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
-      ],
-    },
-    {
-      images: [
         {
           title: 'title',
           path: '/thumb19.jpg',
@@ -132,6 +137,10 @@ const workSlides = {
           path: '/thumb20.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
+      ],
+    },
+    {
+      images: [
         {
           title: 'title',
           path: '/thumb21.jpg',
@@ -147,7 +156,7 @@ const workSlides = {
           path: '/thumb23.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
-        {
+           {
           title: 'title',
           path: '/thumb24.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
@@ -171,7 +180,21 @@ const workSlides = {
           path: '/thumb27.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
+           {
+          title: 'title',
+          path: '/thumb27.jpg',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
       ],
+    },
+    {
+      images: [
+        {
+          title: 'title',
+          path: '/thumb28.jpg',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
+      ]
     },
   ],
 };
@@ -180,16 +203,17 @@ const WorkSlider = () => {
   return (
     <Swiper
       spaceBetween={10}
+      slidesPerView={1}
       pagination={{
         clickable: true,
       }}
       modules={[Pagination, Navigation]}
-      className='h-[280px] sm:h-[480px]'
+      className='h-[280vh] sm:h-[480vh]'
       navigation={true}
     >
       {workSlides.slides.map((slide, slideIndex) => (
         <SwiperSlide key={slideIndex}>
-          <div className='grid grid-cols-3 grid-rows-3 gap-4 cursor-pointer'>
+          <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
             {slide.images.map((image, imageIndex) => {
               const thumbnailId = `slide${slideIndex + 1}_image${imageIndex + 1}`;
               return (
@@ -204,8 +228,8 @@ const WorkSlider = () => {
                       {/* Title */}
                       <div className=' absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300'>
                         <div className='flex items-center gap-x-2 text-[13px] transform-[0.2em]'>
-                          <div className='delay-100'>Página</div>
-                          <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150'>Web</div>
+                          <div className='delay-100'>Interface</div>
+                          <div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150'>web</div>
                         </div>
                         <div className='text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200'>
                           <BsArrowRight />

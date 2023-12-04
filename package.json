@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Eduardopereira11967484018.github.io/my-app",
+  "homepage": "",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "Predeploy":"npm run build",
-    "Deploy":"gh-pages -d dist"
+    "Predeploy": "npm run build",
+    "Deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@babel/core": "^7.23.2",
