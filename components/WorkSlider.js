@@ -22,22 +22,22 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/thumb1.JPG',
            link: 'https://github.com/npm/cli/issues/676vercel',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/thumb2.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/thumb3.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/thumb4.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         
@@ -47,22 +47,22 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb5.jpg',
+          path: '/thumb5.JPG',
            link: 'https://github.com/npm/cli/issues/676vercel',
         },
         {
           title: 'title',
-          path: '/thumb6.jpg',
+          path: '/thumb6.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb7.jpg',
+          path: '/thumb7.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb8.jpg',
+          path: '/thumb8.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
       ],
@@ -71,46 +71,22 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb9.jpg',
+          path: '/thumb9.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb10.jpg',
+          path: '/thumb10.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb11.jpg',
+          path: '/thumb11.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb12.jpg',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: 'title',
-          path: '/thumb13.jpg',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
-        {
-          title: 'title',
-          path: '/thumb14.jpg',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
-        {
-          title: 'title',
-          path: '/thumb15.jpg',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
-        {
-          title: 'title',
-          path: '/thumb16.jpg',
+          path: '/thumb12.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
       ],
@@ -119,22 +95,22 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb17.jpg',
+          path: '/thumb13.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb18.jpg',
+          path: '/thumb14.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb19.jpg',
+          path: '/thumb15.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb20.jpg',
+          path: '/thumb16.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
       ],
@@ -143,22 +119,46 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb21.jpg',
+          path: '/thumb17.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb22.jpg',
+          path: '/thumb18.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
           title: 'title',
-          path: '/thumb23.jpg',
+          path: '/thumb19.JPG',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
+        {
+          title: 'title',
+          path: '/thumb20.JPG',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: 'title',
+          path: '/thumb21.JPG',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
+        {
+          title: 'title',
+          path: '/thumb22.JPG',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
+        {
+          title: 'title',
+          path: '/thumb23.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
            {
           title: 'title',
-          path: '/thumb24.jpg',
+          path: '/thumb24.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
       ],
@@ -167,7 +167,7 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb25.jpg',
+          path: '/thumb25.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
@@ -177,7 +177,7 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/thumb27.jpg',
+          path: '/thumb27.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         
