@@ -180,21 +180,8 @@ const workSlides = {
           path: '/thumb27.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
-           {
-          title: 'title',
-          path: '/thumb27.jpg',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
+        
       ],
-    },
-    {
-      images: [
-        {
-          title: 'title',
-          path: '/thumb28.jpg',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
-      ]
     },
   ],
 };
@@ -221,7 +208,7 @@ const WorkSlider = () => {
                       {/* Image */}
                       <Image src={image.path} width={500} height={300} alt='' />
                       {/* Gradient */}
-                      <div className='absolute inset-0 bg-gradient-to-l from-transparent via-bg-pr to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
+                      <div className='absolute inset-0 bg-gradient-to-l from-transparent via- bg-primary/30 to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
                       {/* Title */}
                       <div className=' absolute bottom-0 translate-y-full group-hover:-translate-y-10 group-hover:xl:-translate-y-20 transition-all duration-300'>
                         <div className='flex items-center gap-x-2 text-[13px] transform-[0.2em]'>
