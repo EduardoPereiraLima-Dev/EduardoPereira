@@ -214,11 +214,11 @@ const WorkSlider = () => {
         <SwiperSlide key={Index}>
           <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
             {slide.images.map((image,Index) => {
-            
+              console.log("Image Path:", image.path);
               return (
                 <div className='relative rounded-lg overflow-hidden flex items-center justify-center group' key={Index}>
                         {/* link */}
-                    <div className='flex items-center justify-center relative group'>
+                    <div className='flex items-center justify-center relative overflow-hidden group'>
                       {/* Image */}
                       <Image src={image.path} width={500} height={300} alt='' />
                       {/* Gradient */}
