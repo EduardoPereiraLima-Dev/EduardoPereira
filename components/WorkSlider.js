@@ -211,14 +211,13 @@ const WorkSlider = () => {
       className='h-[280vh] sm:h-[480vh]'
       navigation={true}
     >
-      {workSlides.slides.map((slide, slideIndex) => (
-        <SwiperSlide key={slideIndex}>
+      {workSlides.slides.map((slide, Index) => (
+        <SwiperSlide key={Index}>
           <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
-            {slide.images.map((image, imageIndex) => {
-              const thumbnailId = `slide${slideIndex + 1}_image${imageIndex + 1}`;
+            {slide.images.map((image, Index) => {
+            
               return (
-                <div className='relative rounded-lg overflow-hidden flex items-center justify-center group' key={imageIndex}>
-                  <a href={image.link} target='_blank' rel='noopener noreferrer'> 
+                <div className='relative rounded-lg overflow-hidden flex items-center justify-center group' key={Index}>
                         {/* link */}
                     <div className='flex items-center justify-center relative overflow-hidden group'>
                       {/* Image */}
@@ -236,7 +235,6 @@ const WorkSlider = () => {
                         </div>
                       </div>
                     </div>
-                  </a>
                 </div>
               );
             })}

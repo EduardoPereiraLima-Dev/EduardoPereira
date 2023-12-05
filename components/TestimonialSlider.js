@@ -21,21 +21,21 @@ const testimonialData = [
     name: 'Anna Maria',
     position: 'Profissão',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      'Lorem ipsum dolor sit amet consectetur.',
   },
   {
     image: '/t-avt-2.png',
     name: 'Janaina Torres',
     position: 'Profissão',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      'Lorem ipsum dolor sit amet consectetur.',
   },
   {
     image: '/t-avt-3.png',
     name: 'João Victor',
     position: 'Profissão',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      'Lorem ipsum dolor sit amet consectetur.',
   },
 ];
 
@@ -63,14 +63,14 @@ const TestimonialSlider = () => {
                   {/*name */}
                   <div className='text-lg'>{person.name}</div>
                   {/*position */}
-                  <div className='text-[12px] uppercase font-extralight tracking-widest'>{person.position}</div>
+                  <div className='text-[10px] uppercase font-extralight tracking-widest'>{person.position}</div>
                 </div>
               </div>
               {/*quote & message */}
-              <div className='flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:leaf-0 xl:before:h-[200px] relative xl:pl-20 '>
+              <div className='flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:leaf-0 xl:before:h-[100px] relative xl:pl-20 '>
                 {/*quote & icon */}
                 <div className='mb-4'>
-                  <FaQuoteLeft className='text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0' />
+                  <FaQuoteLeft className='text-3xl xl:text-6xl text-white/20 mx-auto md:mx-0' />
                 </div>
                 {/*message */}
                 <div className='xl:text-lg text-center md:text-left'>
