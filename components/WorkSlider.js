@@ -172,7 +172,7 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/thumb26.jpg',
+          path: '/thumb26.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
         {
@@ -214,7 +214,6 @@ const WorkSlider = () => {
         <SwiperSlide key={Index}>
           <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
             {slide.images.map((image,Index) => {
-              console.log("Image Path:", image.path);
               return (
                 <div className='relative rounded-lg overflow-hidden flex items-center justify-center group' key={Index}>
                         {/* link */}
