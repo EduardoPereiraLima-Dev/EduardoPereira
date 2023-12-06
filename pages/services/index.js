@@ -24,7 +24,7 @@ import {fadeIn} from '../../variants';
 
 const Services = () => {
   return( 
-  <div className='h-full bg-primary/30 flex items-center'style={{paddingTop:'10rem'}} >
+  <div className='h-full bg-primary/30 flex items-center py-36'>
     <Circles />
     <div className='container mx-auto'>
       <div className='flex flex-col xl:flex-row gap-x-7'>

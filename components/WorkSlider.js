@@ -183,6 +183,15 @@ const workSlides = {
         
       ],
     },
+    {
+      images: [
+        {
+          title: 'title',
+          path: '/thumb25.jpg',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
+      ]
+    },
   ],
 };
 
