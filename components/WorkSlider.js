@@ -180,18 +180,14 @@ const workSlides = {
           path: '/thumb27.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
-        
-      ],
-    },
-    {
-      images: [
         {
           title: 'title',
-          path: '/thumb25.jpg',
+          path: '/thumb28.jpg',
           link:'https://github.com/Eduardopereira11967484018?tab=repositories'
         },
-      ]
-    },
+        
+      ],
+    },   
   ],
 };
 
