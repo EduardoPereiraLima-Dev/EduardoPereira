@@ -13,7 +13,7 @@ const Nav = () => {
   const router = useRouter();
 
   const navData = [
-    { name: 'Casa', path: '/', icon: <HiHome /> },
+    { name: 'Inicio', path: '/', icon: <HiHome /> },
     { name: 'Sobre', path: '/about', icon: <HiUser /> },
     { name: 'Serviços', path: '/services', icon: <HiRectangleGroup /> },
     { name: 'Trabalhos', path: '/work', icon: <HiViewColumns /> },

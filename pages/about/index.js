@@ -123,7 +123,7 @@ const About = () => {
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
         {/*text */}
         <div className='flex-1 flex flex-col justify-center'>
-        <h2 className='text-3xl md:text-4xl lg:text-3xl xl:text-3xl'>Historias <span className='text-accent'>cativantes</span> dão a luz ideas magníficas<span className='text-accent'>.</span></h2>
+        <h2 className='text-3xl md:text-4xl lg:text-3xl xl:text-3xl'>Historias <span className='text-accent'>cativantes</span> dão a luz ideias magníficas<span className='text-accent'>.</span></h2>
         <p  className=' max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>Como desenvolvedor iniciante, estou  embarcando em uma jornada emocionante.</p>
         {/*counters */}
         <div className='hidden md:flex md:max-w-xl xl:max-w-none mx:auto xl:mx-0 mb:-8'>
@@ -166,7 +166,7 @@ const About = () => {
             <div className='flex gap-x-4 xl:gap-x-8 mx-auto lx:mx-0 mb-4'>
               {aboutData.map((item,itemIndex)=>{
                 return(
-                  <div key={itemIndex} className={`${index === itemIndex &&'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'}'cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 after:right-0'`}
+                  <div key={itemIndex} className={`${index === itemIndex &&'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'}'capitalize cursor-pointer xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0 after:right-0'`}
                   onClick={() => setIndex(itemIndex)}
                   >
                   {item.title}</div>
@@ -180,7 +180,7 @@ const About = () => {
                  <div key={itemIndex} className='flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60'>
                 {/*title */}
                 <div className='font-light mb-2 mb:mb-0'>{item.title}</div>
-                <div className='hidden md:flex'>-</div>
+                <div className='hidden md:flex'></div>
                 <div>{item.stage}</div>
                 <div className='flex gap-x-4'> 
                    {/*icons */}
