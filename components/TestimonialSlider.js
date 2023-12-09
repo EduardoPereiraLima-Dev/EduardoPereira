@@ -42,12 +42,14 @@ const testimonialData = [
 const TestimonialSlider = () => {
   return (
     <Swiper
+    spaceBetween={10}
       navigation={true}
       pagination={{
         clickable: true,
       }}
       modules={[Navigation, Pagination]}
       className='h-[280px] sm:[480px]'
+      freeMode={true}
     >
       {testimonialData.map((person, index) => {
         return (
