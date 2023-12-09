@@ -195,18 +195,9 @@ const workSlides = {
 const WorkSlider = () => {
   return (
     <Swiper
-     spaceBetween={10}
-      navigation={true}
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Navigation, Pagination]}
-      freeMode={true}// Adicionando freeMode para permitir rolagem livre
+    
     >
-    <div className='swiper-button-next custom-next right-0'></div>
-      <div className='swiper-button-prev custom-prev left-0'></div>
-       {/* Custom styles for pagination bullets */}
-       <div className='swiper-pagination custom-pagination bn-10'></div>
+   
       {workSlides.slides.map((slide, index) => (
         <SwiperSlide key={index}>
           <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
