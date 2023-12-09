@@ -195,13 +195,7 @@ const workSlides = {
 const WorkSlider = () => {
   return (
     <Swiper
-     spaceBetween={10}
-      navigation={true}
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Navigation, Pagination]}
-      freeMode={true}
+    
     
     >
    
