@@ -200,8 +200,7 @@ const WorkSlider = () => {
       pagination={{
         clickable: true,
       }}
-      modules={[Navigation, Pagination]}
-      freeMode={true}// Adicionando freeMode para permitir rolagem livre
+    
     >
 
       {workSlides.slides.map((slide, index) => (
