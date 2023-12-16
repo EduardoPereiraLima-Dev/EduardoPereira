@@ -2,7 +2,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation'; 
 
-import { Pagination, Navigation } from 'swiper';
+import { Pagination,FreeMode } from 'swiper';
 import React from 'react';
 
 // Import components do Swiper from o React
@@ -28,7 +28,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb2.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+          link:'wearther-app-eduardo.vercel.app'
         },
         {
           title: 'title',
@@ -195,12 +195,25 @@ const workSlides = {
 const WorkSlider = () => {
   return (
     <Swiper
-    
-    
+     breakpoints={{
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+        },
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 15,
+        },
+      }}
+      freeMode={true}
+      pagination={{
+        clickable: true
+      }}
+      modules={[FreeMode,Pagination]}
+      className='h-[350px] sm:h-[400px]'
     >
-   
       {workSlides.slides.map((slide, index) => (
-        <SwiperSlide key={index}>
+        <SwiperSlide key={index} >
           <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
             {slide.images.map((image, subIndex) => (
               <div className='relative rounded-lg overflow-hidden flex items-center justify-center group' key={subIndex}>
