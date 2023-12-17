@@ -28,7 +28,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb2.JPG',
-          link:'wearther-app-eduardo.vercel.app'
+          link:'https://wearther-app-eduardo.vercel.app'
         },
         {
           title: 'title',
@@ -91,30 +91,7 @@ const workSlides = {
         },
       ],
     },
-    {
-      images: [
-        {
-          title: 'title',
-          path: '/thumb13.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
-        {
-          title: 'title',
-          path: '/thumb14.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
-        {
-          title: 'title',
-          path: '/thumb15.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
-        {
-          title: 'title',
-          path: '/thumb16.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
-        },
-      ],
-    },
+  
     {
       images: [
         {
