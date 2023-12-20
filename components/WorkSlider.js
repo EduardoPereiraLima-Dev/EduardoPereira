@@ -121,7 +121,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb21.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+          link:'https:/vr-sem-foto-page-r3ty.vercel.app'
         },
         {
           title: 'title',
