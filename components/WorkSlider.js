@@ -33,12 +33,12 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb3.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+          link:'https://github.com/Eduardopereira11967484018?tab=repositorie'
         },
         {
           title: 'title',
           path: '/thumb4.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+          link:'https://imobili-ria-localize.vercel.app'
         },
         
       ],
@@ -121,7 +121,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb21.JPG',
-          link:'https:/vr-sem-foto-page-r3ty.vercel.app'
+          link:'https://vr-sem-foto-page-r3ty.vercel.app'
         },
         {
           title: 'title',
