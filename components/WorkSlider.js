@@ -150,7 +150,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb26.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+          link:'https://https://cryptomoeda-site-xwck.vercel.app/'
         },
         {
           title: 'title',
