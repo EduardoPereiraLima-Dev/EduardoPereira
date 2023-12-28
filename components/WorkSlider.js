@@ -91,7 +91,31 @@ const workSlides = {
         },
       ],
     },
-  
+    {
+      images: [
+        {
+          title: 'title',
+          path: '/thumb13.JPG',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
+        {
+          title: 'title',
+          path: '/thumb14.JPG',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
+        {
+          title: 'title',
+          path: '/thumb15.JPG',
+          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+        },
+        {
+          title: 'title',
+          path: '/thumb16.JPG',
+          link:'https://3d-card-nike-ar-max.vercel.app/'
+        },
+      ],
+    },
+ 
     {
       images: [
         {
