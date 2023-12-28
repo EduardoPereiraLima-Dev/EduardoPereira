@@ -150,7 +150,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb26.JPG',
-          link:'https://https://cryptomoeda-site-xwck.vercel.app/'
+          link:'https://cryptomoeda-site-xwck.vercel.app/'
         },
         {
           title: 'title',
