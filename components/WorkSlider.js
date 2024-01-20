@@ -23,7 +23,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb16.JPG',
-           link: 'https://github.com/npm/cli/issues/676vercel',
+           link: 'https://3d-card-nike-ar-max.vercel.app/',
         },
         {
           title: 'title',
@@ -33,7 +33,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb21.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositorie'
+          link:'https://vr-sem-foto-page-r3ty.vercel.app'
         },
         {
           title: 'title',
@@ -47,8 +47,8 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb5.JPG',
-           link: 'https://github.com/npm/cli/issues/676vercel',
+          path: '/thumb26.JPG',
+           link: 'https://cryptomoeda-site-xwck.vercel.app/',
         },
         {
           title: 'title',
@@ -111,7 +111,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb1.JPG',
-          link:'https://3d-card-nike-ar-max.vercel.app/'
+          link:'#'
         },
       ],
     },
@@ -145,7 +145,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb3.JPG',
-          link:'https://vr-sem-foto-page-r3ty.vercel.app'
+          link:'#'
         },
         {
           title: 'title',
@@ -173,7 +173,7 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/thumb26.JPG',
+          path: '/thumb6.JPG',
           link:'https://cryptomoeda-site-xwck.vercel.app/'
         },
         {
