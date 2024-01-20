@@ -22,7 +22,7 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.JPG',
+          path: '/thumb16.JPG',
            link: 'https://github.com/npm/cli/issues/676vercel',
         },
         {
@@ -32,7 +32,7 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/thumb3.JPG',
+          path: '/thumb21.JPG',
           link:'https://github.com/Eduardopereira11967484018?tab=repositorie'
         },
         {
@@ -110,7 +110,7 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/thumb16.JPG',
+          path: '/thumb1.JPG',
           link:'https://3d-card-nike-ar-max.vercel.app/'
         },
       ],
@@ -144,7 +144,7 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb21.JPG',
+          path: '/thumb3.JPG',
           link:'https://vr-sem-foto-page-r3ty.vercel.app'
         },
         {

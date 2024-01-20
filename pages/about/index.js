@@ -11,6 +11,12 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaAngular,
+  FaVuejs,
+  FaPython,
+  FaNodeJs,
+  FaGitAlt,
+  FaGithub,
 } from "react-icons/fa";
 
 import {
@@ -18,6 +24,8 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiTypescript,
+  SiAzuredevops,
 } from "react-icons/si";
 
 
@@ -32,8 +40,11 @@ const aboutData = [
           <FaHtml5 key={1} />,
           <FaCss3 key={2} />,
           <FaJs key={3} />,
+          <SiTypescript key={3} />,
           <FaReact key={4} />,
           <SiNextdotjs key={5} />,
+          <FaAngular key={5} />,
+          <FaVuejs key={5} />,
           <SiFramer key={6} />,
           <FaWordpress key={7} />,
         ],
@@ -41,6 +52,15 @@ const aboutData = [
       {
         title: 'UI/UX Design',
         icons: [<FaFigma key={1} />, <SiAdobexd  key={2}/>, <SiAdobephotoshop key={3} />],
+      },
+      {
+        title: 'Gerenciameto',
+        icons: [<FaGitAlt  key={1} />,  <FaGithub  key={2}/>,   <SiAzuredevops   key={2}/>,]
+      },
+    
+      {
+        title: 'Back end Desevolvedor',
+        icons: [<FaPython key={1} />, <FaNodeJs  key={2}/>,]
       },
     ],
   },
@@ -82,11 +102,11 @@ const aboutData = [
         stage: '2023',
       },
       {
-        title: 'The Futur',
+        title: 'EBAC',
         stage: '2023',
       },
       {
-        title: 'Academind',
+        title: 'Dio.me',
         stage: '2023',
       },
     ],

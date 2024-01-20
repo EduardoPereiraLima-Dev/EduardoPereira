@@ -18,8 +18,8 @@ const Socials = () => {
       <RiGithubLine />
     </Link>
     <Link href={'https://www.linkedin.com/in/eduardo-pereira-lima-7580a5239'} className='hover:text-accent transition-all duration-300'>
-      < RiLinkedinLine />
-    </Link> <Link href={'https://t.me/11967484018'} className='hover:text-accent transition-all duration-300'>
+      <RiLinkedinLine />
+    </Link> <Link href={'https://t.me/@E967484018'} className='hover:text-accent transition-all duration-300'>
       <RiTelegramLine />
     </Link> <Link href={'https://api.whatsapp.com/send?phone=5511967484018'} className='hover:text-accent transition-all duration-300'>
       <RiWhatsappLine />
