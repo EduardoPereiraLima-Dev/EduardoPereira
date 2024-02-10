@@ -25,7 +25,7 @@ import {
   SiAdobexd,
   SiAdobephotoshop,
   SiTypescript,
-  SiAzuredevops,
+  SiAzuredevops
 } from "react-icons/si";
 
 
@@ -65,20 +65,20 @@ const aboutData = [
     ],
   },
   {
-    title: 'Prêmios',
+    title: 'Certificados',
     info: [
       {
-        title: 'Aspirando conquistas',
-        stage: 'xxxx - 2023',
+        title: 'Dio.me',
+        stage: '2024 - 2024',
       },
       {
-        title: 'Em busca',
-        stage: 'xxx - 2023',
+        title: 'EBAC',
+        stage: '2024 - 2024',
       },
     ],
   },
   {
-    title: 'experiência',
+    title: 'Experiência',
     info: [
       {
         title: 'em busca',
@@ -103,11 +103,11 @@ const aboutData = [
       },
       {
         title: 'EBAC',
-        stage: '2023',
+        stage: '2024',
       },
       {
         title: 'Dio.me',
-        stage: '2023',
+        stage: '2024',
       },
     ],
   },
@@ -163,9 +163,9 @@ const About = () => {
             </div>
             <div className='relative flex-1'>
               <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                <CountUp start={100} end={0} duration={5} /> +
+                <CountUp start={100} end={15} duration={5} /> +
               </div>
-              <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Ganhando Prêmios</div>
+              <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Certificados</div>
             </div>
           </div>
         </motion.div>
