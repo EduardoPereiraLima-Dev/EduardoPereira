@@ -96,7 +96,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb13.JPG',
-          link:'https://github.com/Eduardopereira11967484018?tab=repositories'
+          link:'https://photography-starter-two.vercel.app'
         },
         {
           title: 'title',
