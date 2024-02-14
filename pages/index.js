@@ -29,9 +29,7 @@ const Home = () => {
          Em cada linha de código, trago vida às ideias, moldando experiências digitais cativantes que transcendem o ordinário e inspiram a conexão.
         </motion.p>
         {/* btn */}
-        <div className='flex justify-center xl:hidden relative'>
-          <ProjectsBtn />
-        </div>
+       
         <motion.div variants={fadeIn('down', 0.4)}
           initial='hidden' animate="show" exit="hidden"
           className='hidden xl:flex'>
