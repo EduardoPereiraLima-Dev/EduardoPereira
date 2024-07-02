@@ -1,6 +1,6 @@
 {
-  "homepage": "",
-  "name": "my-app",
+  "homepage": "https://eduardopereira-dev.vercel.app/",
+  "name": "eduardopereira-dev",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,6 +17,7 @@
     "@emailjs/browser": "^3.11.0",
     "@next/font": "^13.5.3",
     "axios": "^1.5.1",
+    "emailjs-com": "^3.2.0",
     "formik": "^2.4.5",
     "framer-motion": "^10.16.4",
     "google-fonts": "^1.0.0",

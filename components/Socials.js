@@ -1,5 +1,6 @@
 //link
 import Link from "next/link";
+import AudioPlayer from '../components/AudioPlayer';
  
 // icons 
 import {

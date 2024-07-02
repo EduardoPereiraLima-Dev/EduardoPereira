@@ -1,4 +1,6 @@
- //styles css
+//app.js
+
+//styles css
  import '../styles/globals.css';
 //components
 import Layout from '../components/Layout';

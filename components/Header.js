@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Socials from '../components/Socials';
 
+
 const Header = () => {
   return (
     <header className='absolute z-20 w-full flex items-center px-16 xl:px-0 xl:h-[90px] '>
@@ -12,6 +13,7 @@ const Header = () => {
             Eduardo <span className='font-thin'>Pereira</span> <span className='text-accent'>.</span>
           </div>
           {/* Socials */}
+      
           <Socials />
         </div>
       </div>

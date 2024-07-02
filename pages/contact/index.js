@@ -3,10 +3,9 @@ import Circles from "../../components/Circles";
 import { BsArrowRight } from "react-icons/bs";
 import { motion } from 'framer-motion';
 import { fadeIn } from "../../variants";
-import emailjs from '@emailjs/browser';
-import { useState, useRef, FormEvent } from 'react';
-import { FaSpinner, FaWhatsapp } from 'react-icons/fa';
-import { HiCheckCircle, HiOutlineEnvelope, HiOutlineMapPin } from 'react-icons/hi2';
+import { useState, useRef } from 'react';
+import { FaSpinner } from 'react-icons/fa';
+import { HiCheckCircle } from 'react-icons/hi2';
 
 const Contact = () => {
   const form = useRef(null);
@@ -20,15 +19,26 @@ const Contact = () => {
     if (!form.current) return;
 
     setLoading(true);
+    setSuccess(false);
+    setError(false);
+
+    const formData = new FormData(form.current);
 
     try {
-      await emailjs.sendForm(
-        'service_5t081ne',
-        'template_6wgy6nc',
-        form.current,
-        '4GbIsCzVifbY3ve0-'
-      );
-      setSuccess(true);
+      const response = await fetch('../php/send_email.php', {
+        method: 'POST',
+        body: formData,
+        
+      });
+      console.log("Form Data:", formData);
+      console.log("Response:", response);
+
+      if (response.ok) {
+        setSuccess(true);
+        form.current.reset('Enviado com sucesso'); // Limpa o formulário após o envio bem-sucedido
+      } else {
+        setError(true);
+      }
     } catch (err) {
       setError(true);
       console.error(err);
@@ -61,11 +71,11 @@ const Contact = () => {
             className='flex-1 flex flex-col gap-6 w-full mx-auto sm:w-auto'
           >
             <div className='flex gap-x-6 w-full'>
-              <input type='text' placeholder='nome' className='input' name='fullName' required />
-              <input type='email' placeholder='email' className='input' name='email' required />
+              <input type='text' placeholder='Nome' className='input' name='fullName' required />
+              <input type='email' placeholder='Email' className='input' name='email' required />
             </div>
-            <input type='text' placeholder='assunto' className='input' name='subject' required />
-            <textarea placeholder='mensagem' className='textarea' name='message' required></textarea>
+            <input type='text' placeholder='Assunto' className='input' name='subject' required />
+            <textarea placeholder='Mensagem' className='textarea' name='message' required></textarea>
             <button
               type='submit'
               className='btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group'

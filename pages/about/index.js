@@ -17,6 +17,7 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaGithub,
+  FaJava,
 } from "react-icons/fa";
 
 import {
@@ -25,7 +26,8 @@ import {
   SiAdobexd,
   SiAdobephotoshop,
   SiTypescript,
-  SiAzuredevops
+  SiAzuredevops,
+  SiRuby
 } from "react-icons/si";
 
 
@@ -54,13 +56,13 @@ const aboutData = [
         icons: [<FaFigma key={1} />, <SiAdobexd  key={2}/>, <SiAdobephotoshop key={3} />],
       },
       {
-        title: 'Gerenciameto',
+        title: 'Versionamento',
         icons: [<FaGitAlt  key={1} />,  <FaGithub  key={2}/>,   <SiAzuredevops   key={2}/>,]
       },
     
       {
         title: 'Back end Desevolvedor',
-        icons: [<FaPython key={1} />, <FaNodeJs  key={2}/>,]
+        icons: [<SiRuby key={1} />, <FaNodeJs  key={2}/>]
       },
     ],
   },
@@ -81,8 +83,8 @@ const aboutData = [
     title: 'Experiência',
     info: [
       {
-        title: 'em busca',
-        stage: 'xxxx - 2023',
+        title: 'Yellowsec',
+        stage: '2023 - 2024',
       },
       {
         title: 'em busca',
@@ -103,6 +105,10 @@ const aboutData = [
       },
       {
         title: 'EBAC',
+        stage: '2024',
+      },
+      {
+        title: 'Udeny',
         stage: '2024',
       },
       {
@@ -144,7 +150,7 @@ const About = () => {
             {/* Experience */}
             <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:abosulte after:top-0 after:right-0'>
               <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                <CountUp start={0} end={1} duration={5} /> +
+                <CountUp start={0} end={2} duration={5} /> +
               </div>
               <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>Anos de experiência</div>
             </div>
