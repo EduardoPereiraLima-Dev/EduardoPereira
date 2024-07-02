@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $from = $email;
     $headers = "From: $from" . "\r\n" .
                "Reply-To: $from" . "\r\n" .
-               "X-Mailer: PHP/" . phpversion();
+               "X-Mailer: PHP/" . php();
     
     // Corpo do email
     $body = "Nome: $fullName\nEmail: $email\nAssunto: $subject\nMensagem:\n$message";

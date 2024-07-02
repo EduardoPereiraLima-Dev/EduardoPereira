@@ -25,17 +25,17 @@ const Contact = () => {
     const formData = new FormData(form.current);
 
     try {
-      const response = await fetch('../php/send_email.php', {
+      const response = await fetch('https://formspree.io/f/{projects/2508029227568200912}', {
         method: 'POST',
+        headers: {
+          'Accept': 'application/json'
+        },
         body: formData,
-        
       });
-      console.log("Form Data:", formData);
-      console.log("Response:", response);
 
       if (response.ok) {
         setSuccess(true);
-        form.current.reset('Enviado com sucesso'); // Limpa o formulário após o envio bem-sucedido
+        form.current.reset();
       } else {
         setError(true);
       }
