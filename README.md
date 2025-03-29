@@ -1,62 +1,139 @@
+# Eduardo Pereira Dev
 
-Eduardo Pereira's Portfolio
-Welcome to Eduardo Pereira's professional portfolio, a comprehensive showcase of my skills and projects in front-end development.
+## 🖥️ Sobre o Projeto
+Este é um projeto desenvolvido com **Next.js**, **React**, **Tailwind CSS** e outras tecnologias modernas para proporcionar uma experiência web fluida e responsiva. O design foi cuidadosamente elaborado, utilizando animações e uma identidade visual única.
 
-Project Overview
-Framework: Next.js, leveraging its server-side rendering and static site generation capabilities for optimized performance.
-Styling: Tailwind CSS, ensuring responsive and sleek design elements.
-State Management: React Redux, handling state across the application efficiently.
-UI/UX: Styled-components and Framer Motion, creating visually appealing and animated components.
-Form Handling: Formik and Yup, enabling robust form validation and management.
-API Integration: Axios, facilitating seamless communication with backend services.
-Deployment: Vercel, offering quick and efficient deployment with continuous integration.
-Key Features
-Responsive Design: Tailored to look great on any device, from mobile to desktop.
-Smooth Animations: Implemented using Framer Motion, adding a polished and dynamic feel to the UI.
-Contact Form: Integrated with EmailJS for direct communication via email, ensuring a user-friendly experience for potential clients or collaborators.
-Dynamic Components: Swiper.js for interactive sliders, and react-tsparticles for engaging particle animations.
-Backend Integration
-PHP Services: Utilized for server-side email handling and other backend operations, showcasing my full-stack capabilities.
-Version Control: Managed via GitHub, ensuring a well-documented and versioned codebase.
-This portfolio reflects my commitment to building efficient, responsive, and user-centric web applications, utilizing the latest technologies and best practices in web development.
+## 📸 Imagem de Perfil
+A imagem utilizada no projeto foi gerada com ferramentas de Inteligência Artificial (IA), que converteram a foto do Eduardo em um desenho estilizado.
 
-Feel free to explore the projects, check out my code on GitHub, and get in touch via the contact form!
+## 🚀 Tecnologias Utilizadas
 
-This description highlights your technical skills, the technologies used in your portfolio, and invites users to explore your work.
+- **Next.js** (13.5.3)
+- **React.js** (18.2.0)
+- **Tailwind CSS** (3.3.3)
+- **Framer Motion** (para animações)
+- **Redux & React-Redux** (gerenciamento de estado)
+- **Styled Components** (estilização)
+- **Swiper.js** (carrossel)
+- **EmailJS** (envio de emails)
+- **Axios** (requisições HTTP)
+- **Formik & Yup** (validação de formulários)
+- **Jest & Cypress** (testes automatizados)
+- **Docker** (containerização)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 📂 Estrutura do Projeto
 
-## Getting Started
+```
+├── public
+├── src
+│   ├── components
+│   ├── pages
+│   ├── styles
+│   ├── utils
+│   ├── hooks
+│   ├── services
+│   ├── store
+│   ├── assets
+├── .gitignore
+├── tailwind.config.js
+├── package.json
+├── README.md
+```
 
-First, run the development server:
+## 🎨 Configuração do Tailwind CSS
 
-bash
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    fontFamily: {
+      sans: ['"Open Sans"'],
+      handwriting: ["Caveat"],
+      headline: ["Poppins"],
+    },
+    extend: {},
+  },
+  plugins: [],
+};
+```
+
+## 📜 Estilos Customizados
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.translate-z-0 {
+  transform: translateZ(0px);
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #f52d1f;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #f13024;
+}
+
+@layer base {
+  body {
+    @apply bg-secondary overflow-hidden leading-relaxed;
+  }
+  .page {
+    @apply w-full h-screen overflow-hidden;
+  }
+  .h1 {
+    @apply text-[28px] leading-tight sm:text-[35px] md:text-[60px] md:leading-[1.3] mb-8 font-semibold;
+  }
+  .h2 {
+    @apply text-[28px] leading-tight sm:text-[35px] md:text-[54px] md:leading-[1.3] mb-4 font-semibold;
+  }
+  p {
+    @apply leading-[1.8] text-white/60 font-light;
+  }
+  .btn, .input {
+    @apply h-[52px];
+  }
+  .input {
+    @apply w-full h-[52px] rounded-lg pl-6 capitalize;
+  }
+  .input, .textarea {
+    @apply bg-transparent outline-none focus:ring-1 focus:ring-accent border border-white/20 placeholder:text-white/30 placeholder:font-light;
+  }
+  .textarea {
+    @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
+  }
+  .responsive-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+  }
+  .responsive-padding {
+    @apply p-4 md:p-6 lg:p-8;
+  }
+}
+```
+
+## 📦 Como Rodar o Projeto
+```sh
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 
+# Para construir o projeto
+npm run build
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Para iniciar o projeto em produção
+npm run start
+```
 
-You can start editing the page by modifying app/page.js. The page auto-updates as you edit the file.
+## 🌎 Deploy
+O projeto está hospedado em **[eduardopereira-dev.vercel.app](https://eduardopereira-dev.vercel.app/)**
 
-This project uses [next/font](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
+💡 **Feito por [Eduardo Pereira](https://eduardopereira-dev.vercel.app/)** 🚀
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
